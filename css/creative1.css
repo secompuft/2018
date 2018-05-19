@@ -78,6 +78,10 @@ p{
   color: #fff;
   background-color: #000;
 }
+.table-header{
+  text-align: center;
+  font-weight: bold; 
+}
 
 .img-profile {
     border-radius: 70px;
@@ -93,8 +97,9 @@ p{
     /*background: transparent url(../img/globo.png) center center no-repeat;*/
     padding: 6rem 0;
 }.bg-grad2 {
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
+    background: url(img/bg/bg_Inscricao.jpeg); 
     background: linear-gradient(22deg, #f7f7f7 0%, #f7f7f7 57%, #eef0f0 57.2%, #f7f7f7 100%);
+    
 }.bg-grad3 {
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
     background: linear-gradient(22deg, rgba(79, 175, 71, 0.76) 0%, rgba(255, 205, 36, 0.17) 57%, rgba(255, 205, 36, 0.17) 57.2%, hsl(46, 100%, 54%) 100%);
@@ -115,6 +120,15 @@ section {
   text-align: -webkit-center;
 }
 
+.carousel-caption {
+  /*text-shadow: 0 1px 2px rgba(0,0,0,.6);*/
+  color: rgba(14, 78, 121);
+  text-align: center;
+  top: 0;
+  bottom: 0%;
+}
+
+
 aside {
   padding: 50px 0;
 }
@@ -122,7 +136,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: black;
+  background-color: gray;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
