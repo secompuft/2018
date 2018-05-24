@@ -25,7 +25,6 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #0e4e79;
 }
 a:hover,
 a:focus {
@@ -33,7 +32,7 @@ a:focus {
 }
 
 .footer{
-  background: #0e4e79;
+  background-color: gray; 
   color: #ebebeb;
   padding: 10px;
   padding-bottom: 0%;
@@ -47,12 +46,12 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
 }.ft-personalizada {
   font-family: 'Muli', sans-serif;
-  color: #808080;
+  color: #3f3031;
   margin-bottom: 0px;
 }
 
 em {
-  color: #0e4e79;
+  color: #3f3031;
 }
 
 p{
@@ -144,7 +143,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #0e4e79;
+  color: #6d5352;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -162,11 +161,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #0e4e79;
+  color: #6d5352;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #0e4e79 !important;
+  color: #6d5352 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -213,7 +212,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #0e4e79;
+    color: #6d5352;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -226,7 +225,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #0e4e79;
+    color: #6d5352;
   }
 }
 
