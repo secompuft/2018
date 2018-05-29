@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }.ft-personalizada {
   font-family: 'Muli', sans-serif;
   color: #3f3031;
+  size: 8pt;
   margin-bottom: 0px;
 }
 
