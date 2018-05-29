@@ -32,10 +32,10 @@ a:focus {
 }
 
 .footer{
-  background-color: gray; 
+  background-color: gray;
+  background: gray; 
   color: #ebebeb;
-  padding: 10px;
-  padding-bottom: 0%;
+  padding: 5px;
   text-align: center;
   font-weight: 100;
 }
