@@ -317,6 +317,15 @@ header .header-content .header-content-inner p {
   .service-box {
     margin: 20px auto 0;
   }
+  .bt {
+    width: 100%;
+  }
+  
+  a.bt{
+    display: block;
+    padding: 0;
+  }
+}
 }
 .service-box p {
   margin-bottom: 0;
